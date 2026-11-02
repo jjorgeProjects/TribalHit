@@ -1,6 +1,12 @@
 using UnityEngine;
 
-public class EnemyScript : MonoBehaviour
+public class EnemyScriptEjemplo : MonoBehaviour
 {
-    //TODO
+    private float vida;
+
+    public void SetVida(float v)
+    {
+       vida = v;
+    }
+
 }
